@@ -88,6 +88,8 @@ public class Ventana extends javax.swing.JFrame {
      */
     public Ventana() {
         initComponents();
+        
+        this.setLocationRelativeTo(null);
         conexion= new ConexionMySQL("root", "", "bdmultas");
         try 
         {
